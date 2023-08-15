@@ -20,11 +20,11 @@ class QuizInterfacec:
                                                    font=("Arial",15,"italic"))
         self.canvas.grid(row=1,column=0,columnspan=2,pady=50)
         #True Button
-        true_image = PhotoImage(file="day-34\\quizzler-app-start\\images\\true.png")
+        true_image = PhotoImage(file="true.png")
         self.true_button = Button(image=true_image,highlightthickness=0,command=self.true_case)
         self.true_button.grid(row=2,column=0,pady=20)
         #False Button
-        false_image = PhotoImage(file="day-34\\quizzler-app-start\\images\\false.png")
+        false_image = PhotoImage(file="false.png")
         self.false_button = Button(image=false_image,highlightthickness=0,command=self.false_case)
         self.false_button.grid(row=2,column=1,pady=20)
         self.get_next_question()
